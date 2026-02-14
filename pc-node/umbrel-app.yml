@@ -1,1 +1,13 @@
-
+id: "pc-node"
+name: "Peercoin Node"
+version: "0.22.1"
+tagline: "Węzeł Peercoin dla Twoich koparek Bitaxe"
+description: "Pełny węzeł sieci Peercoin z obsługą RPC i P2P na portach 19044/19045. Idealny do stabilnej pracy koparek Bitaxe."
+developer: "Marcin"
+website: "https://peercoin.net"
+submitter: "Marcin"
+submissionDate: "2026-02-15"
+icon: "https://raw.githubusercontent.com/Marcin1986-sys/moje-aplikacje/main/pc-node/icon.svg"
+categories:
+  - "Cryptocurrency"
+port: 19044
