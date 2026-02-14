@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: peercoin_node
+      APP_HOST: marcin_peercoin_node
       APP_PORT: 9902
 
-  peercoin_node:
+  marcin_peercoin_node:
     image: peercoin/peercoind:latest
-    container_name: peercoin_node
+    container_name: marcin_peercoin_node
     restart: on-failure
     stop_grace_period: 1m
     volumes:
