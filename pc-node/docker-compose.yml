@@ -1,1 +1,15 @@
+version: "3.7"
 
+services:
+  server:
+    image: peercoin/peercoin:0.22.1
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+      - USER_ID=1000
+      - GROUP_ID=1000
+    volumes:
+      - ${APP_DATA_DIR}/data:/home/peercoin/.peercoin
+    ports:
+      - 19044:19044
+      - 19045:19045
