@@ -1,0 +1,16 @@
+manifestVersion: 1
+id: peercoin
+category: finance
+name: Peercoin Node
+version: "0.11.0"
+tagline: Prywatny węzeł dla Twojej farmy
+description: >-
+  Oficjalny węzeł Peercoin pobrany prosto z Docker Hub. 
+  Pozwala na kopanie (PoW) przez Bitaxe/L3+ oraz bicie monet (PoS). 
+  Dane są bezpieczne na dyskach Twojego Della.
+developer: Twoja Nazwa
+website: https://peercoin.net
+dependencies: []
+repo: https://github.com/TwojLogin/moj-sklep
+support: https://peercoin.net
+port: 9902
